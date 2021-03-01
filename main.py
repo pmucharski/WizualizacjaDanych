@@ -62,9 +62,13 @@ print(nazwisko.capitalize())
 # się słowami np. „la la la”. Następnie użyj odpowiedniej funkcji, która zliczy występowanie słowa „la”.
 # (trzeba użyć metody count)
 
-piosenka = ('la la la la la');
-print 'ilosc la w piosence : ', piosenka.count('la)';
-
+napis = ('la la la la la')
+print(napis.count('la))'
+#zad.7
+napis1 = 'tekst do sprawdzenia'
+print(napis1[1], napis1[len(napis1)-1])
+#zad.8
+print(napis.split())
 #Zad.9 Napisz skrypt, w którym zadeklarujesz zmienne typu:
 # string, float i szestnastkowe. Następnie wyświetl je wykorzystując odpowiednie formatowanie.
 string = 'Hello'
